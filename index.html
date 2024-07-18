@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de contatos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+    <div class="container">
+    <header>
+        <img src="./images/telefone-logo.png" alt="logo de telefone">
+        <div class="head-text">
+            <h1>Lista telefonica</h1>
+            <h2>Adicione Aqui seu contato!</h2>
+        </div>
+    </header>
+    <form id="form-contato">
+        <input type="text" id="nome-completo" required placeholder="Seu nome completo">
+        <input type="tel" id="numero-celular" required placeholder="Insira seu celular">
+        <button type="submit">Cadastrar +</button>
+    </form>
+    <table cellspacing = '0'>
+        <thead>
+            <tr>
+                <th>Nome do contato</th>
+                <th>Numero de contato</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>---</td>
+                <td>---</td>
+            </tr>
+        </tbody>
+    </table>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
